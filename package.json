@@ -1,0 +1,23 @@
+{
+  "name": "standrof.tests.cypress.cucumber",
+  "version": "1.0.0",
+  "description": "Tests for standprof.co.uk, using Cypress, TypeScript and Cucumber",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/standprof/standrof.tests.cypress.cucumber.git"
+  },
+  "author": "Stan Desyatnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/standprof/standrof.tests.cypress.cucumber/issues"
+  },
+  "homepage": "https://github.com/standprof/standrof.tests.cypress.cucumber#readme"
+}
