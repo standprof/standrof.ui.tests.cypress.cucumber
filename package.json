@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/standprof/standrof.tests.cypress.cucumber/issues"
   },
-  "homepage": "https://github.com/standprof/standrof.tests.cypress.cucumber#readme"
+  "homepage": "https://github.com/standprof/standrof.tests.cypress.cucumber#readme",
+
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
 }
