@@ -5,9 +5,12 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.5",
     "cypress": "^6.5.0",
     "cypress-cucumber-preprocessor": "^4.0.1",
-    "typescript": "^4.2.2"
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.2",
+    "webpack": "^4.46.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
