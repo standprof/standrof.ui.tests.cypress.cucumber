@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Tests for standprof.co.uk, using Cypress, TypeScript and Cucumber",
   "main": "index.js",
-  "dependencies": {
-    "cypress": "^6.5.0"
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
