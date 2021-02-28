@@ -9,5 +9,9 @@ class HomePage {
     getSectionTitle() {
         return cy.get('h2')
     }
+
+    clickOurServices()  {
+        cy.get('a').contains('VIEW OUR SERVICES').click();
+    }
 }
 export default HomePage
