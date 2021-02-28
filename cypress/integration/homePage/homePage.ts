@@ -3,6 +3,6 @@ import HomePage from '../../support/pages/homePage'
 
 const homePage = new HomePage();
 
-Then('the Home page should show a section with the title: {string}', (text) => {
+Then('the Home page should show the {string} section', (text) => {
     homePage.getSectionTitle().should('contain', text)
 })

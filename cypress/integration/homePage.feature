@@ -1,5 +1,5 @@
-Feature: HomePage
+Feature: Home page
 
-Scenario: Client sees title OUR TOP SERVICES
-	Given I navigate to the Standprof web site
-	Then the Home page should show a section with the title: "OUR TOP SERVICES"
+Scenario: Client sees OUR TOP SERVICES section
+	Given I open the Home page
+	Then the Home page should show the "OUR TOP SERVICES" section

@@ -1,5 +1,5 @@
 Feature: Our services
 
-Scenario: Client can open Our Services page
-	Given I navigate to the Standprof web site
+Scenario: Client opens Our Services page
+	Given I open the Home page
 	Then I should be able to open the Our Services page

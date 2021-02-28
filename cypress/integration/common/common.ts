@@ -3,7 +3,7 @@ import HomePage from '../../support/pages/homePage'
 
 const homePage = new HomePage();
 
-Given('I navigate to the Standprof web site', () => {
+Given('I open the Home page', () => {
   homePage.visit();
 })
 
