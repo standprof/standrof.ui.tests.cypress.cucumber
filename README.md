@@ -1,6 +1,9 @@
 # standrof.ui.tests.cypress.cucumber
 UI tests for www.standprof.co.uk, using Cypress, TypeScript and Cucumber
 
+# Prepare
+After you clone the repository, recover the packages needed: `npm install`.
+
 # Running tests via VS Code
 There are a few ways to run the tests:
 - Run `npx cypress open` to open Cypress. In Cypress, click on a feature file to run it. 
