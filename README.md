@@ -2,4 +2,8 @@
 UI tests for www.standprof.co.uk, using Cypress, TypeScript and Cucumber
 
 # Running tests via VS Code
-Run `npx cypress open` to open Cypress. In Cypress, click on a feature file to run it. 
+There are a few ways to run the tests:
+- Run `npx cypress open` to open Cypress. In Cypress, click on a feature file to run it. 
+- Via CLI, run `npx cypress run`. The tests will run in headless mode, and the output will be to the CLI.
+
+More details - [Cypress Command Line](https://docs.cypress.io/guides/guides/command-line.html#cypress-run)
