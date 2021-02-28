@@ -1,7 +1,7 @@
 {
-  "name": "standrof.tests.cypress.cucumber",
+  "name": "standrof.ui.tests.cypress.cucumber",
   "version": "1.0.0",
-  "description": "Tests for standprof.co.uk, using Cypress, TypeScript and Cucumber",
+  "description": "UI tests for www.standprof.co.uk, using Cypress, TypeScript and Cucumber",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
