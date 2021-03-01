@@ -1,5 +1,3 @@
-import OurServicesPage from "./ourServicesPage";
-
 class HomePage {
 
     visit() {
